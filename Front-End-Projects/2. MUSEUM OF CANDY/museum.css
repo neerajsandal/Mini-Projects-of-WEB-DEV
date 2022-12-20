@@ -1,0 +1,66 @@
+body {
+    background-color: #f9d5d9;
+    font-family: "Nunito", sans-serif;
+}
+
+#navbar {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#navbar .navbar-brand {
+    color: red;
+}
+
+#navbar .nav-link {
+    color: white;
+}
+
+#navbar .nav-link:hover {
+    color: red;
+}
+
+.text-center span {
+    color: red;
+}
+
+.text-center h1 {
+    font-weight: 100;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-size: 4rem;
+}
+
+@media(max-width:1290px) {
+    .text-center h1 {
+        font-size: 3rem;
+    }
+
+    .burb h2 {
+        font-size: 2rem;
+    }
+}
+
+#burb h2 {
+    color: red;
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+
+#burb p {
+    color: #f498b8;
+    font-size: 1.125rem;
+    font-weight: 100;
+    line-height: 2;
+}
+
+.navbar.scrolled {
+    background: rgb(222, 192, 222);
+    transition: background 500ms;
+}
+
+.content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
