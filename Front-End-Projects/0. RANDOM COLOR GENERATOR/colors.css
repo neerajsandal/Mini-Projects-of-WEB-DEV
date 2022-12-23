@@ -1,0 +1,15 @@
+h1 {
+    padding-top: 2rem;
+    text-align: center;
+    text-shadow: 0 0.1em 0.1em lightgrey;
+    font-size: 80px;
+}
+
+button,
+h2 {
+    font-size: 40px;
+    margin-top: 40%;
+    margin-left: 20%;
+    border-radius: 5px;
+    padding: 10px;
+}
